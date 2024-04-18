@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button, select, option {
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: 'Montserrat';
+}
+
+body {
+    font-family: 'Montserrat';
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2px;
+}
